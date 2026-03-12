@@ -1,0 +1,95 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b2545;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0b2545;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.menu li{
+cursor:pointer;
+}
+
+.start-btn{
+background:#ff6b4a;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+max-width:700px;
+margin:auto;
+}
+
+.hero span{
+color:#7bdff2;
+}
+
+.hero p{
+max-width:600px;
+margin:20px auto;
+color:#d0d0d0;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.trial{
+background:#ff6b4a;
+border:none;
+padding:12px 25px;
+color:white;
+border-radius:6px;
+margin-right:10px;
+}
+
+.demo{
+background:transparent;
+border:1px solid white;
+padding:12px 25px;
+color:white;
+border-radius:6px;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:80px 20px;
+}
+
+.card{
+background:#123a63;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:150px;
+}
